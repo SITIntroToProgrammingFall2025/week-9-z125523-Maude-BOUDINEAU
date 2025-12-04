@@ -14,9 +14,10 @@ int main(){
             }
         }
     }
-    printf("The sorted array is:\n");
+    printf("sorted array:\n");
     for (int i=0;i<5;i++){
         printf("%d ", a[i]);
     }
     return 0;
 }
+
