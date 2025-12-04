@@ -6,8 +6,6 @@ int main() {
     int B[3][2];   
     int C[2][2] = {0}; 
 
-    printf("Enter first matrix (3 x 2) and second matrix (2 x 3)\n");
-
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 3; j++) {
             scanf("%d", &A[i][j]);
@@ -20,7 +18,7 @@ int main() {
         }
     }
 
-    printf("\nThe first matrix you entered is\n");
+    printf("The first matrix you entered is\n");
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 3; j++) {
             printf("%d ", A[i][j]);
@@ -45,7 +43,7 @@ int main() {
         }
     }
 
-    printf("\nThe multiplication product of matrix A and matrix B :\n");
+    printf("The multiplication product of matrix A and matrix B :\n");
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
             printf("%d ", C[i][j]);
@@ -55,5 +53,6 @@ int main() {
 
     return 0;
 }
+
 
 
