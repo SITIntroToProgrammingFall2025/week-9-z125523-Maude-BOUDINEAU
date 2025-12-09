@@ -46,7 +46,7 @@ int main()
         }
     }
 
-    printf("The first matrix you entered is:\n");
+    printf("The first matrix you entered is\n");
     for (i = 0; i < 2; i++)
     {
         for (j = 0; j < 3; j++)
@@ -56,7 +56,7 @@ int main()
         printf("\n");
     }
 
-    printf("The second matrix you entered is:\n");
+    printf("The second matrix you entered is\n");
     for (i = 0; i < 3; i++)
     {
         for (j = 0; j < 2; j++)
@@ -66,7 +66,7 @@ int main()
         printf("\n");
     }
 
-    printf("The multiplication product of matrix A and matrix B is:\n");
+    printf("The multiplication product of matrix A and matrix B is\n");
     for (i = 0; i < 2; i++)
     {
         for (j = 0; j < 2; j++)
