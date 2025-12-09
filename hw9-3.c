@@ -9,7 +9,7 @@ int main()
     int c[2][2];
     int i, j, k;
 
-    printf("Enter first matrix (2x3):\n");
+
     for (i = 0; i < 2; i++)
     {
         for (j = 0; j < 3; j++)
@@ -18,7 +18,6 @@ int main()
         }
     }
 
-    printf("Enter second matrix (3x2):\n");
     for (i = 0; i < 3; i++)
     {
         for (j = 0; j < 2; j++)
@@ -78,3 +77,4 @@ int main()
 
     return 0;
 }
+
